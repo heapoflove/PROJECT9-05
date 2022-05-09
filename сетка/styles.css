@@ -1,0 +1,45 @@
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 1024px;
+    height: 800px;
+    box-shadow: 5px 5px 15px #e5e5e5;    
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-mountains{
+    width: 400px;
+    height: 800px;
+    object-fit: cover;
+    
+}
+.forms{
+    display: block;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+.registration{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.text-blue{
+    color: #0284c7;
+    font-size: 30px;
+    font-weight: bold;
+}
+.field {
+    height: 25px;
+    width: 500px;
+    border-radius: 20%;
+    padding: 3px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(121, 119, 120);
+
+}
