@@ -64,6 +64,15 @@ html{
     color: #404040;
     margin: 0px calc(var(--offset) / 2);
 }
+@media (max-width: 600px) {
+    .field{ 
+        width: calc(100% / 1);
+    }
+    .fieldmiddle{ 
+        width: calc(100% / 1 - var(--offset) / 2);
+};
+    
+}
 .barefield{
     height: 30px;
     width: 100%;
@@ -89,10 +98,14 @@ html{
 }
 .fieldmiddle1{     
     width: calc(100% / 2);  
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap; 
     margin: 0 calc(var(--offset) / 2);
     font-size: 15px;
     color: #404040;
     overflow: hidden;
+    padding-bottom: calc(var(--offset) / 2);
 }
 .barefieldcountry{
     height: 30px;
